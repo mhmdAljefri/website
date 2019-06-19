@@ -145,9 +145,9 @@ const IndexPage = ({
         <Hedding>Contact</Hedding>
         <div style={{ maxWidth: 300, textAlign: "center", margin: "auto" }}>
           <p style={{ marginBottom: 20 }}>Ask me anything you want to ask.</p>
-          <form>
+          <form data-netlify>
             <Input placeholder="name" />
-            <Input placeholder="email" />
+            <Input placeholder="email" type="email" />
             <Input placeholder="your message" as="textarea">
               Your message
             </Input>
